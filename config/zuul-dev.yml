@@ -4,6 +4,11 @@ spring:
       override-nono: true
   application:
     name: zuul
+  rabbitmq:
+    host: 192.168.1.102
+    port: 15672
+    username: admin
+    password: admin
 
 server:
   port: 3001
